@@ -3,7 +3,6 @@ import './ChefRecipes.css'
 import { useLoaderData } from 'react-router-dom';
 import Recipes from '../Recipes/Recipes';
 import LazyLoad from 'react-lazyload';
-import { FaThumbsUp } from "react-icons/fa";
 
 
 const ChefRecipes = () => {
