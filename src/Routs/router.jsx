@@ -5,7 +5,6 @@ import SignUp from "../Pages/SignUp/SignUp";
 import SignIn from "../Pages/SignIn/SignIn";
 import ErrorPage from "../components/ErrorPage/ErrorPage";
 import Blog from "../components/Blog/Blog";
-import LoadingEffect from "../LoadingEffect/LoadingEffect";
 import ChefRecipes from "../Pages/Home/chefRecipes/chefRecipes";
 import PrivateRoute from "./PrivateRoute/PrivateRoute";
 
