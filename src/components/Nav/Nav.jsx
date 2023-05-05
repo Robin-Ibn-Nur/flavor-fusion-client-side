@@ -18,7 +18,7 @@ const Nav = () => {
                 toast.success('Successfully SignOut', { autoClose: 500 })
             })
             .catch(error => {
-                toast.info('Something is Fishy Fishy', error.message)
+                toast.info('Please Check your email and password', error.message)
             })
     }
 
