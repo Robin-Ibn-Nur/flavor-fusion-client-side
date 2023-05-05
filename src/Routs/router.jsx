@@ -35,10 +35,6 @@ export const router = createBrowserRouter([
                 </PrivateRoute>,
             },
             {
-                path: "/loading",
-                element: <LoadingEffect></LoadingEffect>
-            },
-            {
                 path: "/signup",
                 element: <SignUp></SignUp>,
 
