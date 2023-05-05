@@ -1,6 +1,6 @@
 import React from 'react';
 import './Banner.css'
-import pic from "./photo-1600565193348-f74bd3c7ccdf.jfif"
+
 import LazyLoad from 'react-lazyload';
 
 const Banner = () => {
@@ -10,7 +10,7 @@ const Banner = () => {
         <LazyLoad>
             <div className="banner-section">
                 <div className="banner-container video-background">
-                    <img src={pic} alt="" />
+                    <img src="https://i.pinimg.com/originals/f1/b5/97/f1b597b927397dae3833b8e69821613c.jpg" alt="" />
                     <div className="bannana">
                         <div className="line">
                             <span>"Food Fusion"</span>
