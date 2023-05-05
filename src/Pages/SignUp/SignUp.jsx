@@ -71,7 +71,7 @@ const SignUp = () => {
     }
 
     if (loading) {
-        return <LoaderIcon></LoaderIcon>
+        // return <LoaderIcon></LoaderIcon>
 
     }
     return (

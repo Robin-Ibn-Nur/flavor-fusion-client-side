@@ -1,6 +1,6 @@
 import React from 'react';
 import './Banner.css'
-// import pic from "./photo-1600565193348-f74bd3c7ccdf.jfif"
+import pic from "./photo-1600565193348-f74bd3c7ccdf.jfif"
 import LazyLoad from 'react-lazyload';
 
 const Banner = () => {
