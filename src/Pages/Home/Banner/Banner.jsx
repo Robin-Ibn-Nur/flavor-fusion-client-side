@@ -10,7 +10,7 @@ const Banner = () => {
         <LazyLoad>
             <div className="banner-section">
                 <div className="banner-container video-background">
-                    {/* <img src={pic} alt="" /> */}
+                    <img src={pic} alt="" />
                     <div className="bannana">
                         <div className="line">
                             <span>"Food Fusion"</span>
