@@ -27,8 +27,7 @@ const ChefCards = ({ card }) => {
                         <p>Exparts in {recipes.length} recipes</p>
                         <p>{years_experience} years of Experience</p>
                         <p>{likes} people likes</p>
-                        <button className='btn btn-outline'>
-                            <Link to={`/recipes/${id}`}>View Recipes</Link></button>
+                        <button className='btn btn-outline'><Link to={`/recipes/${id}`}>View Recipes</Link></button>
                     </div>
                 </div>
             </div>
