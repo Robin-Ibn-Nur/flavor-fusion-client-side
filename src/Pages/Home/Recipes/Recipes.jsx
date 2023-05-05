@@ -3,6 +3,7 @@ import './Recipes.css'
 import { toast } from 'react-hot-toast';
 
 const Recipes = ({ recipe }) => {
+    
     const { cooking_method, name, rating, ingredients } = recipe;
 
     const [isDisabled, setIsDisabled] = useState(false);
