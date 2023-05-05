@@ -30,9 +30,7 @@ export const router = createBrowserRouter([
             {
                 path: "/recipes/:id",
                 loader: ({ params }) => fetch(`https://flavor-fusion-server-side.vercel.app/cafe/${params.id}`),
-                element: <PrivateRoute>
-                    <ChefRecipes></ChefRecipes>
-                </PrivateRoute>,
+                element: <PrivateRoute><ChefRecipes></ChefRecipes></PrivateRoute>,
             },
             {
                 path: "/signup",
