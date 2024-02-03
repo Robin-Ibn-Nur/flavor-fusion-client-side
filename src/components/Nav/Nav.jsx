@@ -32,7 +32,7 @@ const Nav = () => {
 
 
     return (
-        <div className="z-[999] relative navbar bg-base-100 border-solid rounded-md border-2 border-yellow-500 p-0">
+        <div className="z-[999] relative navbar bg-base-100 rounded-md p-0">
 
             <div className="navbar-start">
                 <div className="dropdown">
@@ -53,7 +53,7 @@ const Nav = () => {
                 </div>
             </div>
             <div className="navbar-center hidden lg:flex justify-between">
-                <ul tabIndex={0} className="menu menu-horizontal p-0">
+                <ul tabIndex={0} className="menu menu-horizontal p-0 flex justify-between">
                     {menu}
                 </ul>
             </div>
