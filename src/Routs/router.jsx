@@ -8,8 +8,6 @@ import Blog from "../components/Blog/Blog";
 import ChefRecipes from "../Pages/Home/chefRecipes/chefRecipes";
 import PrivateRoute from "./PrivateRoute/PrivateRoute";
 
-
-
 export const router = createBrowserRouter([
     {
         path: "/",
